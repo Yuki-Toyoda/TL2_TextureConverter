@@ -42,6 +42,11 @@ private: // 機能関数群
 	/// <param name="filePath">分割を行うファイルパス</param>
 	void SeparateFilePath(const std::wstring& filePath);
 
+	/// <summary>
+	/// DDSテクスチャとしてファイルに書き出す関数
+	/// </summary>
+	void SaveDDSTextureToFile();
+
 private: // 静的機能関数群
 
 	/// <summary>
